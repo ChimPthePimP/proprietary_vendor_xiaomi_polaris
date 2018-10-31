@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib/libtas2559cal.so:system/lib/libtas2559cal.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so:qcom \
@@ -122,7 +123,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so:qcom \
-	vendor/xiaomi/polaris/proprietary/lib64/libtas2557cal.so:system/lib64/libtas2557cal.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib64/libtas2559cal.so:system/lib64/libtas2559cal.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so:qcom \

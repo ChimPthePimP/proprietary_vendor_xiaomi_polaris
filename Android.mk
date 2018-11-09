@@ -98,16 +98,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilhook
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyServicelibrary
 LOCAL_MODULE_OWNER := qcom
 LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
@@ -138,36 +128,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.qti.imscmservice-V2.0-java
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.qti.imscmservice-V2.1-java
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qti-telephony-common
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -211,167 +171,7 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.ims.callinfo-V1.0-java
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.ims.rcsconfig-V1.0-java
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := cneapiclient.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qti.dpmframework.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.qti.uceservice-V2.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.api-V1.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.api-V1.1-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants-V1.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants-V2.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants-V2.1-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V1.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V2.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V2.1-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V2.2-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := dpm.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := dpmapi.jar
 LOCAL_MODULE_OWNER := qcom
 LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
@@ -391,36 +191,6 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.data.latency-V1.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.data.qmi-V1.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.latency-V2.0-java.jar
-LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := ImsLinks
 LOCAL_MODULE_OWNER := qcom
 LOCAL_MODULE_TAGS := optional
@@ -430,5 +200,15 @@ LOCAL_MODULE_TAGS := optional
 	ln -sf /system/lib64/libimscamera_jni.so $(PRODUCT_OUT)/system/priv-app/ims/lib/arm64/libimscamera_jni.so
 
 include $(BUILD_PHONY_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := chargeonlymode
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)
+LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)
+LOCAL_SRC_FILES := proprietary/rootfs/sbin/chargeonlymode
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
+include $(BUILD_PREBUILT)
 
 #endif

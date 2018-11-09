@@ -15,7 +15,35 @@
 
 PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/bin/dpmd:system/bin/dpmd:qcom \
+    vendor/xiaomi/polaris/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/xiaomi/polaris/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/xiaomi/polaris/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/xiaomi/polaris/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/xiaomi/polaris/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/xiaomi/polaris/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
+    vendor/xiaomi/polaris/proprietary/framework/vendor.qti.latency-V2.0-java.jar:system/framework/vendor.qti.latency-V2.0-java.jar \	
 	vendor/xiaomi/polaris/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib/android.hardware.soundtrigger@2.0.so:system/lib/android.hardware.soundtrigger@2.0.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib/android.hardware.soundtrigger@2.0-core.so:system/lib/android.hardware.soundtrigger@2.0-core.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib/android.hardware.soundtrigger@2.1.so:system/lib/android.hardware.soundtrigger@2.1.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
 	vendor/xiaomi/polaris/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
 	vendor/xiaomi/polaris/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
@@ -42,12 +70,14 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so:qcom \
-        vendor/xiaomi/polaris/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-        vendor/xiaomi/polaris/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so \
-        vendor/xiaomi/polaris/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so \
-        vendor/xiaomi/polaris/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/xiaomi/polaris/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/xiaomi/polaris/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so \
+    vendor/xiaomi/polaris/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so \
+    vendor/xiaomi/polaris/proprietary/lib64/librcc.so:system/lib64/librcc.so \
 	vendor/xiaomi/polaris/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so:qcom \
+    vendor/xiaomi/polaris/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so:qcom \
+    vendor/xiaomi/polaris/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.radio.am@1.0.so:system/lib/vendor.qti.hardware.radio.am@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.radio.ims@1.0.so:system/lib/vendor.qti.hardware.radio.ims@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.radio.ims@1.1.so:system/lib/vendor.qti.hardware.radio.ims@1.1.so:qcom \
@@ -106,6 +136,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib/vendor.xiaomi.hardware.mlipay@1.0.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mlipay@1.1.so:system/lib/vendor.xiaomi.hardware.mlipay@1.1.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
@@ -123,6 +154,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib64/libradio_metadata.so:system/lib64/libradio_metadata.so \
 	vendor/xiaomi/polaris/proprietary/lib64/libtas2559cal.so:system/lib64/libtas2559cal.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
@@ -135,6 +167,8 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so:qcom \
+    vendor/xiaomi/polaris/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so:qcom \
+    vendor/xiaomi/polaris/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.radio.am@1.0.so:system/lib64/vendor.qti.hardware.radio.am@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.radio.ims@1.0.so:system/lib64/vendor.qti.hardware.radio.ims@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.radio.ims@1.1.so:system/lib64/vendor.qti.hardware.radio.ims@1.1.so:qcom \
@@ -197,6 +231,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:qcom \
 	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
@@ -213,7 +248,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/polaris/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:qcom \
 	vendor/xiaomi/polaris/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:qcom \
 	vendor/xiaomi/polaris/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml:qcom \
-        vendor/xiaomi/polaris/proprietary/etc/permissions/LteDirectDiscovery.xml:system/etc/permissions/LteDirectDiscovery.xml:qcom \
+    vendor/xiaomi/polaris/proprietary/etc/permissions/LteDirectDiscovery.xml:system/etc/permissions/LteDirectDiscovery.xml:qcom \
 	vendor/xiaomi/polaris/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml:qcom \
 	vendor/xiaomi/polaris/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
 	vendor/xiaomi/polaris/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml:qcom \
@@ -226,15 +261,12 @@ PRODUCT_PACKAGES += \
 	QtiTelephonyService \
 	QtiSystemService \
 	qcrilmsgtunnel \
-	qcrilhook \
-	QtiTelephonyServicelibrary \
 	ims \
 	imssettings \
 	CNEService \
+	dpmserviceapp \
 	embms \
 	uceShimService \
-	com.qualcomm.qti.imscmservice-V2.0-java \
-	com.qualcomm.qti.imscmservice-V2.1-java \
 	qti-telephony-common \
 	uimlpalibrary \
 	uimremoteclientlibrary \
@@ -243,22 +275,6 @@ PRODUCT_PACKAGES += \
 	vendor.qti.ims.callinfo-V1.0-java \
 	vendor.qti.ims.rcsconfig-V1.0-java \
 	ImsLinks \
-	cneapiclient.jar \
-	com.qti.dpmframework.jar \
-	com.qualcomm.qti.uceservice-V2.0-java.jar \
-	com.quicinc.cne.api-V1.0-java.jar \
-	com.quicinc.cne.api-V1.1-java.jar \
-	com.quicinc.cne.constants-V1.0-java.jar \
-	com.quicinc.cne.constants-V2.0-java.jar \
-	com.quicinc.cne.constants-V2.1-java.jar \
-	com.quicinc.cne.jar \
-	com.quicinc.cne.server-V1.0-java.jar \
-	com.quicinc.cne.server-V2.0-java.jar \
-	com.quicinc.cne.server-V2.1-java.jar \
-	com.quicinc.cne.server-V2.2-java.jar \
-	dpmapi.jar \
 	embmslibrary.jar \
-	vendor.qti.hardware.data.latency-V1.0-java.jar \
-	vendor.qti.hardware.data.qmi-V1.0-java.jar \
-	vendor.qti.latency-V2.0-java.jar \
-	dpm.jar
+	dpm.jar \
+	chargeonlymode

@@ -40,13 +40,8 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar:qcom \
     vendor/xiaomi/polaris/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:qcom \
     vendor/xiaomi/polaris/proprietary/framework/vendor.qti.latency-V2.0-java.jar:system/framework/vendor.qti.latency-V2.0-java.jar:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/android.hardware.soundtrigger@2.0.so:system/lib/android.hardware.soundtrigger@2.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/android.hardware.soundtrigger@2.0-core.so:system/lib/android.hardware.soundtrigger@2.0-core.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/android.hardware.soundtrigger@2.1.so:system/lib/android.hardware.soundtrigger@2.1.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/librcc.so:system/lib/librcc.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/libbluetooth_qti.so:system/lib/libbluetooth_qti.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so:qcom \
@@ -69,10 +64,6 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/librcc.so:system/lib64/librcc.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so:qcom \
@@ -98,21 +89,11 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/lib/com.qualcomm.qti.uceservice@2.0.so:system/lib/com.qualcomm.qti.uceservice@2.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/com.quicinc.cne.server@1.0.so:system/lib/com.quicinc.cne.server@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.color@1.1.so:system/lib/vendor.display.color@1.1.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.color@1.2.so:system/lib/vendor.display.color@1.2.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.config@1.0.so:system/lib/vendor.display.config@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.config@1.1.so:system/lib/vendor.display.config@1.1.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.config@1.2.so:system/lib/vendor.display.config@1.2.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:system/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.alarm@1.0.so:system/lib/vendor.qti.hardware.alarm@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.automotive.vehicle@1.0.so:system/lib/vendor.qti.hardware.automotive.vehicle@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:system/lib/vendor.qti.hardware.camera.device@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so:qcom \
@@ -138,11 +119,13 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mlipay@1.1.so:system/lib/vendor.xiaomi.hardware.mlipay@1.1.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.2.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.2.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so:qcom \
+    vendor/xiaomi/polaris/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so:qcom \
@@ -152,7 +135,7 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/libradio_metadata.so:system/lib64/libradio_metadata.so \
+    vendor/xiaomi/polaris/proprietary/lib64/librcc.so:system/lib64/librcc.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/libtas2559cal.so:system/lib64/libtas2559cal.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
@@ -190,21 +173,11 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so:system/lib64/com.qualcomm.qti.uceservice@2.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/com.quicinc.cne.server@1.0.so:system/lib64/com.quicinc.cne.server@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.config@1.0.so:system/lib64/vendor.display.config@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.config@1.1.so:system/lib64/vendor.display.config@1.1.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.config@1.2.so:system/lib64/vendor.display.config@1.2.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:system/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.alarm@1.0.so:system/lib64/vendor.qti.hardware.alarm@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so:system/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.camera.device@1.0.so:system/lib64/vendor.qti.hardware.camera.device@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so:qcom \
@@ -232,12 +205,11 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:qcom \
+	vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
-    vendor/xiaomi/polaris/proprietary/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
     vendor/xiaomi/polaris/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf:qcom \
     vendor/xiaomi/polaris/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc:qcom \
-    vendor/xiaomi/polaris/proprietary/etc/permissions/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml:qcom \
     vendor/xiaomi/polaris/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml:qcom \
     vendor/xiaomi/polaris/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml:qcom \
     vendor/xiaomi/polaris/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml:qcom \
@@ -252,7 +224,6 @@ PRODUCT_COPY_FILES +=\
     vendor/xiaomi/polaris/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml:qcom \
     vendor/xiaomi/polaris/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml:qcom \
     vendor/xiaomi/polaris/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml:qcom \
-    vendor/xiaomi/polaris/proprietary/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml:qcom \
     vendor/xiaomi/polaris/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg:qcom \
     vendor/xiaomi/polaris/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so:qcom \
     vendor/xiaomi/polaris/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so:qcom

@@ -1,6 +1,0 @@
-android.software.sip.voip.xml
-cneapiclient.xml
-com.qti.dpmframework.xml
-com.quicinc.cne.xml
-dpmapi.xml
-embms.xml

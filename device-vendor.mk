@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/polaris/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/polaris/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/xiaomi/polaris/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so \
-    vendor/xiaomi/polaris/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so \ 
+    vendor/xiaomi/polaris/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so \
     vendor/xiaomi/polaris/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/polaris/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/polaris/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \

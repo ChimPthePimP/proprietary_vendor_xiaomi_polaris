@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/polaris/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/xiaomi/polaris/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/xiaomi/polaris/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/xiaomi/polaris/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/polaris/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/xiaomi/polaris/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
     vendor/xiaomi/polaris/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
@@ -154,11 +155,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
-    QtiSystemService \
     uceShimService \
     CNEService \
     dpmserviceapp \
     ims \
-    imssettings \
     qcrilmsgtunnel \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340 \
     chargeonlymode
